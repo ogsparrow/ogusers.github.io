@@ -1,0 +1,83 @@
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@font-face {
+	font-family: androidEuclid;
+	src: url(fonts/AndroidEuclid-Medium.otf);
+}
+
+@font-face {
+	font-family: androidEuclid;
+	src: url(fonts/AndroidEuclid-Bold.otf);
+	font-weight: bold;
+}
+
+.header {
+	text-align: center;
+}
+
+.subheader {
+	font-size: 20px;
+	font-family: AndroidEuclid;
+	color: white;
+}
+
+.description {
+	font-family: AndroidEuclid;
+	color: white;
+	font-size: 23px;
+	padding-left: 30px;
+}
+
+.list{
+	color: white;
+	font-size: 20px;
+	font-family: androidEuclid;
+	padding-left: 80px;
+}
+
+.footer{
+	color:white;
+	font-family: androidEuclid;
+	bottom: 0;
+	left: 1%;
+	position: fixed;
+	text-align: center;
+}
+
+h1{
+	font-family: AndroidEuclid;
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	color: white;
+}
+
+a{
+	color: white;
+}
+
+body {
+	background: linear-gradient(-45deg, #833CFE, #6428EB, #FB7451, #F5702B);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+ /* iframe{
+	display: block; 
+	width: 100%; 
+	border: none; 
+	overflow-y: auto; 
+	overflow-x: hidden;
+}
